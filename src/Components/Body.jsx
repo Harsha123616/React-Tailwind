@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../assets/hero-cover-1.png"; // Make sure this path is correct
 
 function Body() {
   return (
@@ -29,7 +30,7 @@ function Body() {
 
         <div className="mt-12 lg:mt-0">
           <img
-            src="src/assets/hero-cover-1.png"
+            src={heroImage} // Imported image
             alt="Learning Illustration"
             className="rounded-lg shadow-lg"
           />
